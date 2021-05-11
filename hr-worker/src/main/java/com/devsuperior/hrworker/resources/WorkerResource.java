@@ -18,10 +18,10 @@ import com.devsuperior.hrworker.repositories.WorkerRepository;
 @RestController
 @RequestMapping(value = "/workers")
 public class WorkerResource {
-    
+
 	private static Logger logger = LoggerFactory.getLogger(WorkerResource.class);
-	
-	@Autowired 
+
+	@Autowired
 	private Environment env;
 	@Autowired
 	private WorkerRepository repository;
